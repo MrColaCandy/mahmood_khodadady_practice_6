@@ -1,0 +1,38 @@
+.comment{
+    max-width: 90%;
+    min-width: 50%;
+    position: relative;
+    direction: ltr;
+   
+    
+}
+.comment .comment-body{
+    background-color: white;
+    margin: 16px 0;
+    padding: 25px;
+    border-radius: 6px;
+}
+
+.comment .comment-header
+{
+    padding: 16px;
+    border-bottom: 3px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comment .comment-header span
+{
+    color: #B4CE9C;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.comment .comment-header button{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    color: #B4CE9C;
+    background: white;
+    font-weight: bold;
+}
