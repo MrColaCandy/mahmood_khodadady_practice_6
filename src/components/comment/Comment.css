@@ -1,7 +1,6 @@
 .comment{
+    width:  90%;
     max-width: 90%;
-    min-width: 50%;
-    position: relative;
     direction: ltr;
    
     
@@ -11,6 +10,7 @@
     margin: 16px 0;
     padding: 25px;
     border-radius: 6px;
+   
 }
 
 .comment .comment-header
@@ -20,12 +20,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .comment .comment-header span
 {
     color: #B4CE9C;
     font-size: 1.1rem;
     font-weight: bold;
+
 }
 
 .comment .comment-header button{
@@ -35,4 +37,5 @@
     color: #B4CE9C;
     background: white;
     font-weight: bold;
+    
 }

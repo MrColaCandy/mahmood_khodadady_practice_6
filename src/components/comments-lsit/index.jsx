@@ -8,6 +8,7 @@ const CommentsList = ({comments=[]}) => {
             
             {
             renderComments(comments)
+            
             }
             
        </div>
